@@ -4,7 +4,7 @@ st.title('최상위 수학 4-2')
 
 mon = '월요일 PAGE 28-30'
 corrects = ['99', '4/9', '3+1/4', '7', '31', '6/19,9/19,14/19', '103']
-problems = ['2','3','4','5','6','7','8',]
+problems = ['2','3','4: (숫자)+(숫자)/(숫자)','5','6','7','8',]
 
 tue = '화요일_PAGE 34-37'
 corrects_tue = ['18','둔각삼각혁','4','7','45', '120', '110','4','60','12','80']
@@ -33,6 +33,7 @@ with st.expander(mon):
 
         if answers[i] == corrects[i]:
             form.subheader('good job')
+            st.snow()
         else:
             form.write('sorry, try again')
 
@@ -53,6 +54,7 @@ with st.expander(tue):
 
         if answers_tue[i] == corrects_tue[i]:
             form.subheader('good job')
+            st.snow()
         else:
             form.write('sorry, try again')
 
@@ -73,6 +75,7 @@ with st.expander(wed):
 
         if answers_wed[i] == corrects_wed[i]:
             form.subheader('good job')
+            st.snow()
         else:
             form.write('sorry, try again')
 
@@ -93,6 +96,7 @@ with st.expander(thu):
 
         if answers_thu[i] == corrects_thu[i]:
             form.subheader('good job')
+            st.snow()
         else:
             form.write('sorry, try again')
 
@@ -112,6 +116,7 @@ with st.expander(fri):
 
         if answers_fri[i] == corrects_fri[i]:
             form.subheadere('good job')
+            st.snow()
         else:
             form.write('sorry, try again')
 
